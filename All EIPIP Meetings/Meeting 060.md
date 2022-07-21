@@ -9,11 +9,12 @@
 # Action items
 Action Item | Description
 ---|---
-**60.0** | No action will be taken
-**60.1** | add an option to just take a proposal add yourself as author under a new number that's the preferred option if you can't find the author and if the author doesn't want if the new author doesn't want to do it for some reason we consider those reason
-**60.2** | victor can further pursue this idea by making a pr of a template for eip1
-
-
+**60.0** | No action from Ethereum DevOps will be taken. 
+**60.1** | In absence of an EIP author of a proposal, a champinon may create a new proposal, add the content of the existing proposal with a new number. 
+**60.2** | Victor may pursue the idea of "Placeholder author" by making a PR of a template for EIP-1
+**60.3** | FEM may add a template for "discussion-to" link. EIP-1 can be updated with the FEM template link.
+**60.4** | Issue #156 - create a new proposal with changes suggested for EIP-4906
+**60.5** | Issue #157 Pooja will add the discussion to the next meeting. User is suggested to split that issue into two. (1) the licensing issue and (2) should we lint people's code
 
 # 0.Travis CI issue. A proposal to migrate to GitHub Actions.
 
@@ -53,7 +54,9 @@ Action Item | Description
 
 **Pooja:** awesome thank you we are moving  pretty fast on items today so far okay
 
-**Micah:** i i think i fixed it it was under branch protection i still had a reference to travis ci and so i have removed travis ci and i have added eip validator html proofer and code spell as required  checks for the branch emerging yay thank you hopefully
+**Micah:** i i think i fixed it it was under branch protection i still had a reference to travis ci and so i have removed travis ci and i have added eip validator html proofer and code spell as required  checks for the branch merging
+
+**Pooja** yay thank you 
 
 # 2 Moving proposal in absence of author. Ref: Comment
 
@@ -75,7 +78,7 @@ Action Item | Description
 
 **Micah:** so the solution if you can't get a hold of the author would be to spin up a new eip and then depend on that one and push that one through to final so um so basically you'd say hey i like this idea um but again the thing to keep in mind is like from a process standpoint eips that are in draft or stagnant or whatever are basically ideas there may be good ideas and they're on their on track to eventually become like an actual adopted standard but until they make it to final they're not standard yet they're they're just ideas or drafts as you as you will like someone's working on something to try to standardize it but because they're mutable they're not really good for being standard you want something that's immutable to be a standard you don't want your standard changing to every every six months when you know an author happens to show up and edit things and so for that reason the right thing to do here is if you're depending on something that is draft and it's just not moving forward whatsoever and you can't get ahold of the author you can't convince them to add you as a co-author you can't get them to update it you can't get them push it through then create a basically copy the ap give it a new number or we'll assign a new number i should say and then add yourself as the author instead of the old one and then then you can push that through to final and then you can depend on that and so now you have something that's actually mutable that you're depending on rather than depending on something mutable
 
-**Pooja**: one concern that he flagged here is like it is highly likely that there could be many other proposals who may have used proposal 831 in its current format uh
+**Pooja**: one concern that he flagged here is like it is highly likely that there could be many other proposals who may have used proposal 831 in its current format 
 
  **Micah**:  yeah people do bad things on the internet all the time we can't stop them like i mean people did this with the erc20 and it was a mess 
 
